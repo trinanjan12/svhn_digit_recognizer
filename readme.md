@@ -74,3 +74,8 @@ The predictions are better compared to detectron2.
 
 **Future work** <br>
 Need to figure out a way to detect very low res image
+
+# TODO
+ - [ ] Add trained weights for multiclass classification
+ - [ ] Add trained weights for yolov5 and detectron2
+ - [ ] Add better documentation for the scripts used
