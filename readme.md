@@ -62,7 +62,9 @@ I have used a brilliant open source lib  for my implementation of yolov5.
 
 **Summary**
 1. To train with Yolov5 I first created the dataset in the desired format.
-script for this could be found here -->one for creating from the train folder and one for the combined dataset(train+extra) https://github.com/trinanjan12/svhn_digit_recognizer/blob/master/yolov5/create_yolo_anno.py,https://github.com/trinanjan12/svhn_digit_recognizer/blob/master/yolov5/create_yolo_anno.py 
+script for this could be found here -->one for creating from the train folder and one for the combined dataset(train+extra) <br>
+https://github.com/trinanjan12/svhn_digit_recognizer/blob/master/yolov5/create_yolo_anno.py <br>
+https://github.com/trinanjan12/svhn_digit_recognizer/blob/master/yolov5/create_yolo_anno_full.py <br>
 2. model used is **yolov5m** and trained for 50 epochs on the training dataset of SVHN images
 3. Train and test notebook links --> training and test scripts are given in the repo
 4. Prediction for the **final test output** could be found here --> https://github.com/trinanjan12/svhn_digit_recognizer/tree/master/yolov5/pred_output
