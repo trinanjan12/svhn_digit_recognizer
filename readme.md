@@ -66,7 +66,7 @@ script for this could be found here -->one for creating from the train folder an
 https://github.com/trinanjan12/svhn_digit_recognizer/blob/master/yolov5/create_yolo_anno.py <br>
 https://github.com/trinanjan12/svhn_digit_recognizer/blob/master/yolov5/create_yolo_anno_full.py <br>
 2. model used is **yolov5m** and trained for 50 epochs on the training dataset of SVHN images
-3. Train and test notebook links --> training and test scripts are given in the repo
+3. Train and test notebook links --> training and test scripts are given in the original yolov5 repo
 4. Prediction for the **final test output** could be found here --> https://github.com/trinanjan12/svhn_digit_recognizer/tree/master/yolov5/pred_output
 
 **Results**<br> 
