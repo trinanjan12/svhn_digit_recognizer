@@ -67,7 +67,11 @@ https://github.com/trinanjan12/svhn_digit_recognizer/blob/master/yolov5/create_y
 https://github.com/trinanjan12/svhn_digit_recognizer/blob/master/yolov5/create_yolo_anno_full.py <br>
 2. model used is **yolov5m** and trained for 50 epochs on the training dataset of SVHN images
 3. Train and test notebook links --> training and test scripts are given in the original yolov5 repo
-4. Prediction for the **final test output** could be found here --> https://github.com/trinanjan12/svhn_digit_recognizer/tree/master/yolov5/pred_output
+4. yolov5 without using randomrotation/flip upside augmentation was not able to detect vertically flipped images ,so I trained yolov5 after changing the default augmentation parameter<br>
+flipud: 0.3 # image flip up-down (probability) changed from 0 to .3<br>
+degrees: 180.0 # image rotation (+/- deg) changed from 0 to 180<br>
+https://github.com/trinanjan12/svhn_digit_recognizer/tree/master/yolov5/hyp.scratch.yaml<br>
+5. Prediction for the **final test output** could be found here --> https://github.com/trinanjan12/svhn_digit_recognizer/tree/master/yolov5/pred_output
 
 **Results**<br> 
 The predictions are better compared to detectron2. 
@@ -80,3 +84,4 @@ Need to figure out a way to detect very low res image
  - [ ] Add trained weights for yolov5 and detectron2
  - [ ] Add better documentation for the scripts used
  - [ ] make the code more generic and remove absolute links from different places
+ - [ ] Train the yolov5 on the bigger dataset by combining extra and train images
