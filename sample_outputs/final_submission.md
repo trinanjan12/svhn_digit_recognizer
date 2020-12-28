@@ -20,6 +20,16 @@ https://github.com/trinanjan12/svhn_digit_recognizer
 ## My Final Submission is Yolov5 output
 ### I am attaching outputs from Yolov5 and Detectron2
 
+# Sample output
+## Note :
+### I am not drawing bbox because the images are too small to draw multiple bbox
+### All The output shown below are trained on the http://ufldl.stanford.edu/housenumbers/ format 1 dataset train images
+### yolov5 without using randomrotation/flip upside augmentation was not able to detect vertically flipped images
+## so I trained yolov5 after changing the default augmentation parameter 
+flipud: 0.3  # image flip up-down (probability) changed from 0 to .3<br>
+degrees: 180.0  # image rotation (+/- deg)  changed from 0 to 180<br>
+https://github.com/trinanjan12/svhn_digit_recognizer/tree/master/yolov5/hyp.scratch.yaml
+
 ## 1. Object Detection using YOLOV5
 
 ### Output of the test dataset provided
