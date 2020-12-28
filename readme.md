@@ -79,9 +79,13 @@ The predictions are better compared to detectron2.
 **Future work** <br>
 Need to figure out a way to detect very low res image
 
+**Trained Models**
+Please check out this repo to train and test models using yolov5. I have added the trained models on this repo.
+https://github.com/trinanjan12/svhn_yolov5
+
 # TODO
  - [ ] Add trained weights for multiclass classification
- - [ ] Add trained weights for yolov5 and detectron2
- - [ ] Add better documentation for the scripts used
- - [ ] make the code more generic and remove absolute links from different places
- - [ ] Train the yolov5 on the bigger dataset by combining extra and train images
+ - [x] Add trained weights for yolov5 and detectron2
+ - [x] Add better documentation for the scripts used
+ - [x] make the code more generic and remove absolute links from different places
+ - [x] Train the yolov5 on the bigger dataset by combining extra and train images
